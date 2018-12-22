@@ -40,7 +40,7 @@ app.post('/cambiarPassword', (req, res) => {
         to: `${body.to}`, // list of receivers
         subject: 'Hello ✔', // Subject line
         text: '', // plain text body:
-        html: '<b><br>Para restablecer tu contraseña, <br><br> ingresa el siguiente código: <br><div class="danger">' + token + '</div> <br><br> y tu nueva contraseña en: http://localhost:4200/authentication/resetpassword <br><br>  Gracias!  <br>  </b>' // html body
+        html: '<b><br>Para restablecer tu contraseña, <br><br> ingresa el siguiente código: <br><div class="danger">' + token + '</div> <br><br> y tu nueva contraseña en: http://doctoramarthacenteno.com/authentication/resetpassword <br><br>  Gracias!  <br>  </b>' // html body
     };
 
     // send mail with defined transport object
